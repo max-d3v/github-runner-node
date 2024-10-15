@@ -1,6 +1,6 @@
 # GitHub Self-Hosted Runner
 
-This project provides a self-hosted runner for GitHub Actions, designed to be run on a VPS (Virtual Private Server). Using a self-hosted runner offers several advantages:
+This project provides a self-hosted runner for GitHub Actions equiped with nodejs and npm, designed to be run on a VPS (Virtual Private Server). Using a self-hosted runner offers several advantages:
 
 - Network privileges
 - Fixed IP address
