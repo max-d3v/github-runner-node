@@ -1,0 +1,9 @@
+version: '3'
+services:
+  runner:
+    build: .
+    environment:
+      - GITHUB_PAT=${GITHUB_PAT}
+      - GITHUB_OWNER=${GITHUB_OWNER}
+    deploy:
+      replicas: 3
