@@ -1,6 +1,5 @@
 #!/bin/bash
-REPO="webservices_v2"
-
+REPO="${GITHUB_REPO:-}"
 GITHUB_PAT="${GITHUB_PAT:-}"
 GITHUB_OWNER="${GITHUB_OWNER:-}"
 

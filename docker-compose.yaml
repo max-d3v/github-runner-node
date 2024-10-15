@@ -5,5 +5,6 @@ services:
     environment:
       - GITHUB_PAT=${GITHUB_PAT}
       - GITHUB_OWNER=${GITHUB_OWNER}
+      - GITHUB_REPO=${GITHUB_REPO}
     deploy:
       replicas: 3
