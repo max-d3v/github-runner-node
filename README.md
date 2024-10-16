@@ -43,6 +43,6 @@ To start the runner(s), follow these steps:
 ## Usage
 
 To use this runner in the specified repo, in the workflow file use:
-    ```
-    runs-on: self-hosted
+   ```yaml
+   runs-on: self-hosted
    ```
