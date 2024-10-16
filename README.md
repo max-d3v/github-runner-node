@@ -46,4 +46,4 @@ To use this runner in the specified repo, inside the workflow file use:
    ```yaml
    runs-on: self-hosted
    ```
-In each you want to be performed by the self hosted runner.
+In each job you want to be performed by the self hosted runner.
