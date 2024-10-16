@@ -39,3 +39,10 @@ To start the runner(s), follow these steps:
    ```bash
    docker-compose up --build -d --scale runner=3
    ```
+
+## Usage
+
+To use this runner in the specified repo, in the workflow file use:
+    ```yaml
+    runs-on: self-hosted
+   ```
