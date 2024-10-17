@@ -8,3 +8,4 @@ services:
       - GITHUB_REPO=${GITHUB_REPO}
     deploy:
       replicas: 3
+    mem_limit: 100MB
